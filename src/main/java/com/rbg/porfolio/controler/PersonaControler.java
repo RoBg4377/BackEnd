@@ -43,8 +43,10 @@ public class PersonaControler {
         return pers;
     }
     
-    @PutMapping("/editar")
-    public String editPersona(@RequestBody Persona pers){
+    @PutMapping("/editar/{id_pers}")
+    public String editPersona(
+            @PathVariable Long id_pers,
+            @RequestBody Persona pers){
         ipersonaService.savePersona(pers);
         return "Persona actualizada con éxito";        
     }

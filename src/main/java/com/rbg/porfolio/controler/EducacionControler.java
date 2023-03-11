@@ -39,8 +39,10 @@ public class EducacionControler {
         return edu;
     }
     
-    @PutMapping("/editar")
-    public String editEducacion(@RequestBody Educacion edu){
+    @PutMapping("/editar/{id_edu}")
+    public String editEducacion(
+            @PathVariable Long id_edu,
+            @RequestBody Educacion edu){
         ieducacioneService.saveEducacion(edu);
         return "Educacion actualizada con éxito";        
     }

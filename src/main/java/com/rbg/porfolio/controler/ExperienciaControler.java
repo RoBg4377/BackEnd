@@ -37,8 +37,10 @@ public class ExperienciaControler {
         return exp;
     }
     
-    @PutMapping("/editar")
-    public String editExperiencia(@RequestBody Experiencia exp){
+    @PutMapping("/editar/{id_exp}")
+    public String editExperiencia(
+            @PathVariable Long id_exp,
+            @RequestBody Experiencia exp){
         iexperienciaService.saveExperiencia(exp);
         return "Experiencia actualizada con éxito";        
     }

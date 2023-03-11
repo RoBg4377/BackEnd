@@ -38,8 +38,10 @@ public class SkillsControler {
         return skill;
     }
     
-    @PutMapping("/editar")
-    public String editSkills(@RequestBody Skills skill){
+    @PutMapping("/editar/{id_sk}")
+    public String editSkills(
+            @PathVariable Long id_sk,
+            @RequestBody Skills skill){
         iskillsService.saveSkills(skill);
         return "Skill actualizado con éxito";        
     }

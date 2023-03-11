@@ -37,8 +37,10 @@ public class ProyectosControler {
         return pro;
     }
     
-    @PutMapping("/editar")
-    public String editProyectos(@RequestBody Proyectos pro){
+    @PutMapping("/editar/{id_pro}")
+    public String editProyectos(
+            @PathVariable Long id_pro,
+            @RequestBody Proyectos pro){
         iproyectosService.saveProyectos(pro);
         return "Proyecto actualizado con éxito";        
     }

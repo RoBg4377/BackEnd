@@ -21,6 +21,7 @@ com/rbg/porfolio/service/ImpEducacionService.class
 com/rbg/porfolio/interfaces/IEducacionService.class
 com/rbg/porfolio/repository/IPersonaRepository.class
 com/rbg/porfolio/PorfolioApplication.class
+com/rbg/porfolio/WebConfig.class
 com/rbg/porfolio/service/ImpSkillsService.class
 com/rbg/porfolio/entity/Experiencia.class
 com/rbg/porfolio/dto/Mensaje.class

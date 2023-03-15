@@ -29,6 +29,7 @@
 /home/rbg4377/Plantillas/AP/BackEnd/porfolio/src/main/java/com/rbg/porfolio/controler/PersonaControler.java
 /home/rbg4377/Plantillas/AP/BackEnd/porfolio/src/main/java/com/rbg/porfolio/security/dto/NuevoUsuario.java
 /home/rbg4377/Plantillas/AP/BackEnd/porfolio/src/main/java/com/rbg/porfolio/security/repository/RolRepository.java
+/home/rbg4377/Plantillas/AP/BackEnd/porfolio/src/main/java/com/rbg/porfolio/WebConfig.java
 /home/rbg4377/Plantillas/AP/BackEnd/porfolio/src/main/java/com/rbg/porfolio/service/ImpExperienciaService.java
 /home/rbg4377/Plantillas/AP/BackEnd/porfolio/src/main/java/com/rbg/porfolio/security/dto/JwtDto.java
 /home/rbg4377/Plantillas/AP/BackEnd/porfolio/src/main/java/com/rbg/porfolio/security/jwt/JwtTokenFilter.java
